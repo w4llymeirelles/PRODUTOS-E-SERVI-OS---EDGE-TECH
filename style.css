@@ -1,0 +1,106 @@
+header {
+	background: #000000;
+}
+
+.caixa {
+	position: relative;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.logo {
+	max-width: 150px;
+	max-height: 150px;
+	width: auto;
+	height: auto;
+	margin-left: 140px;
+	margin-bottom: -4px;
+	padding-bottom: 0;
+	border: 0;
+
+}
+
+nav {
+	position: absolute;
+	top: 68px;
+	right: 0;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	padding-top: 25px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: overline;
+}
+
+.produtos-serviços {
+	width: 1300px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos-serviços li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos-serviços li:hover {
+	border-color: #C78C19;
+}
+
+.produtos-serviços li:active {
+	border-color: #088C19;
+}
+
+.produtos-serviços li:hover h2 {
+	font-size: 20px;
+}
+
+.produtos-serviços h2 {
+	font-size: 15px;
+	margin-bottom: 2px;
+}
+
+.produto-descrição {
+	margin-top: 2px;
+}
+
+.cadeado {
+	max-width: 350px;
+}
+.conexões {
+	max-width: 350px;
+}
+.inteligência {
+	max-width: 350px;
+}
+
+footer {
+	text-align: center;
+	background: #000000;
+}
+
+.logof {
+	margin-bottom: -20px;
+}
